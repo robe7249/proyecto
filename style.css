@@ -28,3 +28,49 @@
     font-size: 35px;
     text-align: center;
 }
+
+.avatar{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.correo >input{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.password >input{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.correo::before{
+    content: "\f007";
+    font-size: 25px;
+}
+
+.password::before{
+    content: "\f023";
+    font-size: 25px;
+}
+
+.correo::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.password::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
