@@ -22,10 +22,11 @@
 }
 
 .banner-content h1{
+    font-family: "Alegreya", serif;
     margin-top: 60px;
     padding: 0;
-    padding-bottom: 30px;
-    font-size: 35px;
+    /* padding-bottom: 30px; */
+    font-size: 45px;
     text-align: center;
 }
 
@@ -73,4 +74,26 @@
     padding-left: 15px;
 }
 
+.main .publish >p{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 30px;
+}
+.main .options {
+    margin-top: 70px;
+    display: grid;
+    grid-template: repeat(1, 330px) / repeat(4, 1fr); /* esto hace las filas y columnas al mismo tiempo*/
+    
+}
 
+.main .options .steps {
+    text-align: center;
+    border: steelblue solid;
+}
+
+@media(max-width: 426px){
+    .main .options {
+        display: flex;
+        flex-direction: column;
+    }
+}
