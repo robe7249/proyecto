@@ -135,8 +135,6 @@
     text-decoration: none;
     max-width: 500px;
     display: block;
-    -webkit-transition: .3s all;
-    transition: .3s all;
     color: white;
 }
 
